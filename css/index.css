@@ -1,0 +1,357 @@
+.error_message{
+text-align:center;
+background-color:#cfd8e6;
+ padding-left: 1%;
+ padding-right: 1%;
+ color:black;
+ }
+ 
+ 
+button.login_form_submit_button
+{
+				width: 99%;
+			
+				color: #000;
+				font-weight: bold;
+				font-size: 14pt;
+			 background: -webkit-linear-gradient(left top,#ddd,#eee); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #ddd,#eee); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#ddd,#eee); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right, #ddd ,#eee); /* Standard syntax (must be last) */ 
+				border-radius: 10px;
+				box-shadow: 2px 1px thin groove;
+				align:center;
+				margin-left: 0.5%;
+				padding-left: 10px;
+				padding-right:10px;
+				padding-top:13px;
+					padding-bottom:13px;
+				transition: 0.001s;
+}
+button.login_form_submit_button:hover
+{
+				width: 99%;
+				
+				color: #f00;
+				font-weight: bold;
+				font-size: 14.5pt;
+		 background: -webkit-linear-gradient(left top,#ccc,#ddd); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #ccc,#ddd); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#ccc,#ddd); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right, #ccc ,#ddd); /* Standard syntax (must be last) */ 
+				border-radius: 10px;
+				box-shadow: 2px 1px thin groove;
+				align:center;
+				margin-left: 0.5%;
+				padding-left: 10px;
+				padding-right:10px;
+				padding-top:13px;
+					padding-bottom:13px;
+				box-shadow : inset 1px 1px 1px 1px #fbb;
+}
+button.login
+{
+				width: 9%;
+				height: 6.5%;
+				color: #000;
+				font-weight: bold;
+				font-size: 13.2pt;
+			 background: -webkit-linear-gradient(left top,#ddd,#eee); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #ddd,#eee); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#ddd,#eee); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right, #ddd ,#eee); /* Standard syntax (must be last) */ 
+				border-radius: 10px;
+				box-shadow: 2px 1px thin groove;
+				align:center;
+				margin-left: 2%;
+				padding-left: 20px;
+				padding-right:20px;
+				transition: 0.001s;
+
+}
+button.login_clicked
+{
+				width: 9%;
+				height: 6.7%;
+				color: #fff;
+				font-weight: bold;
+				font-size: 13.5pt;
+				background: -webkit-linear-gradient(left top,#a00,#b00); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #a00,#b00); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#a00,#b00); /* For Firefox 3.6 to 15 */
+				background: linear-gradient(to bottom right, #a00 ,#b00); /* Standard syntax (must be last) */ 
+				border-radius: 10px;
+				box-shadow: 2px 1px thin groove;
+				align:center;
+				margin-left: 2%;
+				padding-left: 20px;
+				padding-right:20px;
+				box-shadow : inset 1px 1px 1px 1px #666;
+				
+}
+button.login:hover
+{
+				width: 9%;
+				height: 6.5%;
+				color: #f22;
+				font-weight: bold;
+				font-size: 13.2pt;
+			  background: -webkit-linear-gradient(left top,#ccc,#ddd); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #ccc,#ddd); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#ccc,#ddd); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right, #ccc ,#ddd); /* Standard syntax (must be last) */ 
+				border-radius: 10px;
+				box-shadow: 2px 1px thin groove;
+				align:center;
+				margin-left: 2%;
+				padding-left: 20px;
+				padding-right:20px;
+				box-shadow : inset 1px 1px 1px 1px #fbb;
+}
+button.create_account_button
+{
+				widht: 50%;
+				height: 5%;
+				color: #000;
+				font-weight: bold;
+				font-size: 13.2pt;
+			 background: -webkit-linear-gradient(left top,#ddd,#eee); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #ddd,#eee); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#ddd,#eee); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right, #ddd ,#eee); /* Standard syntax (must be last) */ 
+				border-radius: 10px;
+				box-shadow: 2px 1px thin groove;
+				align:center;
+				margin-left: 2%;
+				padding-left: 20px;
+				padding-right:20px;
+				transition: 0.1s;
+}
+button.create_account_button:hover
+{
+				widht: 50%;
+				height: 5%;
+				color: #f00;
+				font-weight: bold;
+				font-size: 13.5pt;
+				 background: -webkit-linear-gradient(left top,#ccc,#ddd); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #ccc,#ddd); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#ccc,#ddd); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right, #ccc ,#ddd); /* Standard syntax (must be last) */ 
+				border-radius: 10px;
+				box-shadow: 2px 1px thin groove;
+				align:center;
+				margin-left: 2%;
+				padding-left: 20px;
+				padding-right:20px;
+				box-shadow : inset 1px 1px 1px 1px #fbb;
+}
+button.signup
+{
+						width: 9%;
+					height: 6.5%;
+					color: #000;
+					font-weight: bold;
+					font-size: 13.2pt;
+				 background: -webkit-linear-gradient(left top,#ddd,#eee); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #ddd,#eee); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#ddd,#eee); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right, #ddd ,#eee); /* Standard syntax (must be last) */ 
+					border-radius: 10px;
+					box-shadow: 2px 1px thin groove;
+					text-align:center;
+					margin-left: 2%;
+					padding-left: 19px;
+					padding-right:19px;
+					transition: 0.001s;
+
+}
+button.signup:hover
+{
+						width: 9%;
+					height: 6.5%;
+					color: #f22;
+					font-weight: bold;
+					font-size: 13.2pt;
+					 background: -webkit-linear-gradient(left top,#ccc,#ddd); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #ccc,#ddd); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#ccc,#ddd); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right, #ccc ,#ddd); /* Standard syntax (must be last) */ 
+					border-radius: 10px;
+					box-shadow: 2px 1px thin groove;
+					align:center;
+					margin-left: 2%;
+					padding-left: 19px;
+					padding-right:19px;
+					box-shadow : inset 1px 1px 1px 1px #fcc;
+					
+}
+button.signup_clicked{
+		width: 9%;
+				height: 6.7%;
+				color: #fff;
+				font-weight: bold;
+				font-size: 13.5pt;
+				background: -webkit-linear-gradient(left top,#a00,#b00); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #a00,#b00); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#a00,#b00); /* For Firefox 3.6 to 15 */
+				background: linear-gradient(to bottom right, #a00 ,#b00); /* Standard syntax (must be last) */ 
+				border-radius: 10px;
+				box-shadow: 2px 1px thin groove;
+				align:center;
+				margin-left: 2%;
+				padding-left: 20px;
+				padding-right:20px;
+				box-shadow : inset 1px 1px 1px 1px #666;
+}
+button.stranger_chat
+{
+						width: 19%;
+					height: 6.5%;
+					color: #000;
+					font-weight: bold;
+					font-size: 13.1pt;
+					 background: -webkit-linear-gradient(left top,#ddd,#eee); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #ddd,#eee); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#ddd,#eee); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right, #ddd ,#eee); /* Standard syntax (must be last) */ 
+					border-radius: 10px;
+					box-shadow: 2px 1px thin groove;
+					align:center;
+					margin-left: 2%;
+					padding-left: 19px;
+					padding-right:19px;
+
+}
+
+button.stranger_chat:hover
+{
+						width: 19%;
+					height: 6.5%;
+					color: #f22;
+					font-weight: bold;
+					font-size: 13.1pt;
+					 background: -webkit-linear-gradient(left top,#ccc,#ddd); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #ccc,#ddd); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#ccc,#ddd); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right, #ccc ,#ddd); /* Standard syntax (must be last) */ 
+					border-radius: 10px;
+					box-shadow: 2px 1px thin groove;
+					align:center;
+					margin-left: 2%;
+					padding-left: 20px;
+					padding-right:20px;
+					box-shadow : inset 1px 1px 1px 1px #fcc;
+				
+}
+.get_loginform
+{
+				position:absolute; 
+					 background: -webkit-linear-gradient(left top,#add8e6,#add8f7); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #add8e6,#add8f7); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#add8e6,#add8f7); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right,#add8e6,#add8f7); /* Standard syntax (must be last) */ 
+				z-index: 100;  
+				width: 20%; 
+				height: 83%;
+				padding: 10px;
+				 margin-left: 75%; 
+				 float:right;
+				 vertical-align:top; 
+				 margin-top: -2%; 
+				 
+				 border-radius: 5px;
+				box-shadow: rgba(200,200,200,0.7) 5px 6px 10px 0px;
+				 border: 2px solid #d0d0d0;
+ }
+ .whole{
+ position:absolute; 
+				background-color:#fff;
+				z-index: 101;  
+				width: 70%; 
+				height: 80%;
+				padding: 20px;
+				 margin-left: 1%; 
+				 float:right;
+				 vertical-align:top; 
+				 margin-top: 0%; 
+				 text-align:center;
+				 border-radius: 5px;
+				box-shadow: rgba(200,200,200,0.7) 5px 6px 10px 0px;
+				 border: 2px solid #d0d0d0;
+				 margin-top: -2%; 
+				 }
+ .get_signupform
+ {
+				 position:absolute; 
+		
+			 background: -webkit-linear-gradient(left top,#add8e6,#add8f7); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #add8e6,#add8f7); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#add8e6,#add8f7); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right,#add8e6,#add8f7); /* Standard syntax (must be last) */ 
+				z-index: 100;  
+				width: 86%; 
+				height: 100%;
+				padding: 20px;
+				 margin-left: 1%; 
+				 vertical-align:top; 
+				 margin-top: 5%; 
+				 text-align:left;
+				 border-radius: 25px;
+				box-shadow: rgba(200,200,200,0.7) 5px 6px 10px 0px;
+				 border: 2px solid #d0d0d0;
+ }
+p.warn
+{
+					font-size:13pt;
+					font-weight: bold;
+					color: #005;
+					
+}
+.input_box_name_signup
+{
+				color: #111; 
+				text-shadow: #bbccff;
+				 font-size: 13.5pt;
+				 font-weight:bold;
+				 margin-left: 15%;
+}
+div.header_logo_button_background
+{
+			
+					 background: -webkit-linear-gradient(left top,#add8e6,#add8f7); /* For Safari 5.1 to 6.0 */
+					background: -o-linear-gradient(bottom right, #add8e6,#add8f7); /* For Opera 11.1 to 12.0 */
+					background: -moz-linear-gradient(bottom right,#add8e6,#add8f7); /* For Firefox 3.6 to 15 */
+					background: linear-gradient(to bottom right,#add8e6,#add8f7); /* Standard syntax (must be last) */ 
+				 box-shadow: rgba(200,200,200,0.7) 0 5px 11px -1px; 
+				 border: 2px solid #d5d5d5;
+		
+				 text-align:left;
+				 font-size: 1.8em; 
+				 padding-right:1.5%;
+				 padding-bottom:0.4%;  
+				  padding-right:1%;
+				 padding-top:1%;
+				 border-radius: 10px;
+				 margin-left:3%;
+				 color:red;
+				 font-weight:bold;
+				 font-style:italic;
+				 	 margin-top:-1.3%;
+					 width:92%;
+				 text-shadow: 1px 1px #777;
+
+}
+.input_box_create_acc
+{
+ z-index: 599;
+			 position:absolute;
+			margin-left:15%; 
+			height: 4%;
+			background-color:#efefff;
+			 font-weight:bold;
+			 color: #f00; 
+			 width:65%;
+			
+			 box-shadow: 2px 1px  #111;
+ }
